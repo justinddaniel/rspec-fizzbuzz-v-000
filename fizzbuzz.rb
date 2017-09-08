@@ -5,6 +5,6 @@ def fizzbuzz(x)
     puts "Buzz"
   elsif x % 3 == 0
     puts "Fizz"
-  else return nil
+  else puts "nil"
 end
 end
