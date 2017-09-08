@@ -1,9 +1,9 @@
 def fizzbuzz(x)
   if x % 15 == 0
-    "FizzBuzz"
+    puts "FizzBuzz"
   elsif x % 5 == 0
-    "Buzz"
+    puts "Buzz"
   elsif x % 3 == 0
-    "Fizz"
+    puts "Fizz"
   else return nil
 end
